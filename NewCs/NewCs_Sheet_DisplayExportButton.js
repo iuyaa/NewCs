@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name              新客服系统_工单查询_导出
 // @namespace         iuya
-// @icon              https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCsLogo.ico?token=AL2O23IHZCLEEQRPZPW74Y3AOFNSO
-// @icon64            https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCsLogo.ico?token=AL2O23IHZCLEEQRPZPW74Y3AOFNSO
-// @updateURL         https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs_Sheet_DisplayExportButton.js?token=AL2O23LSX23NZS2B6FUZUG3AOFNZ6
-// @downloadURL       https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs_Sheet_DisplayExportButton.js?token=AL2O23LSX23NZS2B6FUZUG3AOFNZ6
-// @version           1.0.0
+// @icon              https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCsLogo.ico
+// @icon64            https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCsLogo.ico
+// @updateURL         https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCs_Sheet_DisplayExportButton.js
+// @downloadURL       https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCs_Sheet_DisplayExportButton.js
+// @version           1.2.0
 // @author            iuya
 // @description       显示工单查询中的导出按钮。
 // @match             *://10.238.1.245/*

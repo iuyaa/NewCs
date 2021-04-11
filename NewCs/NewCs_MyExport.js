@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name              新客服系统_我的导出
 // @namespace         iuya
-// @icon              https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCsLogo.ico?token=AL2O23IHZCLEEQRPZPW74Y3AOFNSO
-// @icon64            https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCsLogo.ico?token=AL2O23IHZCLEEQRPZPW74Y3AOFNSO
-// @updateURL         https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs_MyExport.js?token=AL2O23JMZRTD4QXEU55JP3DAOFNWE
-// @downloadURL       https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs_MyExport.js?token=AL2O23JMZRTD4QXEU55JP3DAOFNWE
-// @version           1.0.0
+// @icon              https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCsLogo.ico
+// @icon64            https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCsLogo.ico
+// @updateURL         https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCs_MyExport.js
+// @downloadURL       https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCs_MyExport.js
+// @version           1.2.0
 // @author            iuya
 // @description       为新客服系统添加我的导出元素。
 // @match             *://10.238.1.245/*
