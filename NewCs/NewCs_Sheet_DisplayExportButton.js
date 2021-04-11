@@ -5,7 +5,7 @@
 // @icon64            https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCsLogo.ico
 // @updateURL         https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCs_Sheet_DisplayExportButton.js
 // @downloadURL       https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCs_Sheet_DisplayExportButton.js
-// @version           1.2.0
+// @version           1.3.0
 // @author            iuya
 // @description       显示工单查询中的导出按钮。
 // @match             *://10.238.1.245/*
@@ -28,15 +28,5 @@
              document.getElementById('exportId').style = "padding-left: 3px; "
 
         }) 
-//  }
-  
-//  document.getElementById("menu").addEventListener("click", myexport);
-  
-//  function myexport(){
-
-    
-//  }
-  
-
 
 })();
