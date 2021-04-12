@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name              新客服系统_工作小结
 // @namespace         iuya
-// @icon              https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCsLogo.ico
-// @icon64            https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCsLogo.ico
-// @updateURL         https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCs_JobSummary.js
-// @downloadURL       https://raw.githubusercontent.com/iuyaa/NewCs/master/NewCs/NewCs_JobSummary.js
-// @version           1.0.0
+// @icon              https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCsLogo.ico
+// @icon64            https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCsLogo.ico
+// @updateURL         https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCs_JobSummary.js
+// @downloadURL       https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCs_JobSummary.js
+
+// @version           1.1.0
 // @author            iuya
 // @description       为新客服系统添加工作小结元素。
 // @match             *://10.238.1.245/*
