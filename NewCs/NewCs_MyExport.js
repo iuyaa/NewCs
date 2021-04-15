@@ -9,6 +9,7 @@
 // @author            iuya
 // @description       为新客服系统添加我的导出元素。
 // @match             *://10.238.1.245/*
+// @match             *://10.188.34.1/*
 // ==/UserScript==
 
 (function () {

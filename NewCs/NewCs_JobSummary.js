@@ -10,6 +10,7 @@
 // @author            iuya
 // @description       为新客服系统添加工作小结元素。
 // @match             *://10.238.1.245/*
+// @match             *://10.188.34.1/*
 // ==/UserScript==
 
 (function () {
@@ -26,7 +27,7 @@
     $$(function () {
         //需要执行的内容 
         var li = document.createElement('li');
-        var el = document.getElementById("9904030300").parentElement.parentElement;
+        var el = document.getElementById("9904030200").parentElement.parentElement;
         el.appendChild(li);
         li.innerHTML = '<span style="color:#fff;cursor: pointer;" id="9904030600" title="工作小结" lang="/cs/ccc/portal/web/statistics/page/statisticsmanage.html" isnewwin="0" onclick="addTab(\'9904030600\',\'工作小结\',\'/cs/ccc/portal/web/statistics/page/statisticsmanage.html\')"> 工作小结</span>';
         li.style = "float: left;margin-right: 10px;width:120px;";

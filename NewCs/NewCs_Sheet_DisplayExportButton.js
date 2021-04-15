@@ -9,6 +9,7 @@
 // @author            iuya
 // @description       显示工单查询中的导出按钮。
 // @match             *://10.238.1.245/*
+// @match             *://10.188.34.1/*
 // ==/UserScript==
 
 (function () {
