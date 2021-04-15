@@ -5,7 +5,7 @@
 // @icon64            https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCsLogo.ico
 // @updateURL         https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCs_Sheet_DisplayExportButton.js
 // @downloadURL       https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCs_Sheet_DisplayExportButton.js
-// @version           1.4.0
+// @version           1.5.0
 // @author            iuya
 // @description       显示工单查询中的导出按钮。
 // @match             *://10.238.1.245/*
