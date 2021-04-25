@@ -6,11 +6,11 @@
 // @updateURL         https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCs_JobSummary.js
 // @downloadURL       https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCs_JobSummary.js
 
-// @version           1.5.0
+// @version           1.6.0
 // @author            iuya
 // @description       为新客服系统添加工作小结元素。
-// @match             *://10.238.1.245/*
-// @match             *://10.188.34.1/*
+// @match             http://10.238.1.245/cs/workbench/page/menu.html
+// @match             http://10.188.34.1/cs/workbench/page/menu.html
 // ==/UserScript==
 
 (function () {

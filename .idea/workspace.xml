@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e075490-b080-4587-b284-20568c765d2d" name="默认变更列表" comment="更新icon与update地址" />
+    <list default="true" id="6e075490-b080-4587-b284-20568c765d2d" name="默认变更列表" comment="更新icon与update地址">
+      <change beforePath="$PROJECT_DIR$/logs/xvba_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/xvba_debug.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +50,7 @@
       <workItem from="1618039536575" duration="3423000" />
       <workItem from="1618124283432" duration="246000" />
       <workItem from="1618127203919" duration="758000" />
+      <workItem from="1618464513016" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="更新icon与update地址">
       <created>1618040947155</created>
