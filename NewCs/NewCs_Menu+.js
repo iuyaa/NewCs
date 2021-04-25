@@ -3,7 +3,9 @@
 // @namespace         iuya
 // @icon              https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCsLogo.ico
 // @icon64            https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCsLogo.ico
-// @version           1.1.0
+// @updateURL         https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCs_Menu%2B.js
+// @downloadURL       https://cdn.jsdelivr.net/gh/iuyaa/NewCs@master/NewCs/NewCs_Menu%2B.js
+// @version           1.2.0
 // @author            iuya
 // @description       在新客服系统的菜单iframe中添加“我的导出”“工作小结”菜单。
 // @match             http://10.238.1.245/cs/workbench/page/menu.html
