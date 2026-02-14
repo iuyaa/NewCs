@@ -1,0 +1,1313 @@
+# [custom]
+
+rule-providers:
+  speedtest_speedtest:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list"
+    path: "./ruleset/speedtest_speedtest.list"
+  speedtest_speedtest_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Speedtest/Speedtest.list"
+    path: "./ruleset/speedtest_speedtest_2.list"
+  openai_openai:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
+    path: "./ruleset/openai_openai.list"
+  openai_openai_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list"
+    path: "./ruleset/openai_openai_2.list"
+  gemini_gemini:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Gemini.list"
+    path: "./ruleset/gemini_gemini.list"
+  copilot_claude:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Claude.list"
+    path: "./ruleset/copilot_claude.list"
+  copilot_ai:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"
+    path: "./ruleset/copilot_ai.list"
+  set_unban:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"
+    path: "./ruleset/set_unban.list"
+  set_steamcn:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+    path: "./ruleset/set_steamcn.list"
+  # set_baneasyprivacy:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
+  #   path: "./ruleset/set_baneasyprivacy.list"
+  # set_privatetracker:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.list"
+  #   path: "./ruleset/set_privatetracker.list"
+  # adblock_banad:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
+  #   path: "./ruleset/adblock_banad.list"
+  # adblock_baneasylist:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list"
+  #   path: "./ruleset/adblock_baneasylist.list"
+  # adblock_baneasylistchina:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
+  #   path: "./ruleset/adblock_baneasylistchina.list"
+  # adblock_banprogramad:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
+  #   path: "./ruleset/adblock_banprogramad.list"
+  youtube_youtube:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+    path: "./ruleset/youtube_youtube.list"
+  youtube_youtube_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list"
+    path: "./ruleset/youtube_youtube_2.list"
+  googleplay_googlecnproxyip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list"
+    path: "./ruleset/googleplay_googlecnproxyip.list"
+  google_googlefcm:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
+    path: "./ruleset/google_googlefcm.list"
+  google_googlefcm_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list"
+    path: "./ruleset/google_googlefcm_2.list"
+  google_googlecn:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list"
+    path: "./ruleset/google_googlecn.list"
+  google_googlecn_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+    path: "./ruleset/google_googlecn_2.list"
+  google_google:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list"
+    path: "./ruleset/google_google.list"
+  onedrive_onedrive:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
+    path: "./ruleset/onedrive_onedrive.list"
+  microsoft_bing:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list"
+    path: "./ruleset/microsoft_bing.list"
+  microsoft_microsoft:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
+    path: "./ruleset/microsoft_microsoft.list"
+  # set_apple:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
+  #   path: "./ruleset/set_apple.list"
+  telegram_telegram:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
+    path: "./ruleset/telegram_telegram.list"
+  # set_neteasemusic:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
+  #   path: "./ruleset/set_neteasemusic.list"
+  set_epic:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"
+    path: "./ruleset/set_epic.list"
+  set_origin:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list"
+    path: "./ruleset/set_origin.list"
+  set_sony:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list"
+    path: "./ruleset/set_sony.list"
+  set_steam:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list"
+    path: "./ruleset/set_steam.list"
+  set_nintendo:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"
+    path: "./ruleset/set_nintendo.list"
+  # set_netflix:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+  #   path: "./ruleset/set_netflix.list"
+  set_bilibilihmt:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
+    path: "./ruleset/set_bilibilihmt.list"
+  set_bilibili:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+    path: "./ruleset/set_bilibili.list"
+  set_steamcn_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list"
+    path: "./ruleset/set_steamcn_2.list"
+  set_steam_cdn:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Steam_CDN.list"
+    path: "./ruleset/set_steam_cdn.list"
+  telegram_telegram_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list"
+    path: "./ruleset/telegram_telegram_2.list"
+  github_github:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list"
+    path: "./ruleset/github_github.list"
+  # set_apple_2:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list"
+  #   path: "./ruleset/set_apple_2.list"
+  microsoft_microsoft_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list"
+    path: "./ruleset/microsoft_microsoft_2.list"
+  # set_xiaomi:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoMi/XiaoMi.list"
+  #   path: "./ruleset/set_xiaomi.list"
+  tiktok_tiktok:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list"
+    path: "./ruleset/tiktok_tiktok.list"
+  # set_netflix_2:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list"
+  #   path: "./ruleset/set_netflix_2.list"
+  # disney_disney:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+  #   path: "./ruleset/disney_disney.list"
+  # spotify_spotify:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+  #   path: "./ruleset/spotify_spotify.list"
+  # set_neteasemusic_2:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.list"
+  #   path: "./ruleset/set_neteasemusic_2.list"
+  set_epic_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic/Epic.list"
+    path: "./ruleset/set_epic_2.list"
+  set_ea:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EA/EA.list"
+    path: "./ruleset/set_ea.list"
+  set_blizzard:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Blizzard/Blizzard.list"
+    path: "./ruleset/set_blizzard.list"
+  set_ubi:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UBI/UBI.list"
+    path: "./ruleset/set_ubi.list"
+  set_sony_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sony/Sony.list"
+    path: "./ruleset/set_sony_2.list"
+  set_nintendo_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.list"
+    path: "./ruleset/set_nintendo_2.list"
+  set_steam_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.list"
+    path: "./ruleset/set_steam_2.list"
+  # set_chinamax:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list"
+  #   path: "./ruleset/set_chinamax.list"
+  set_lan:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.list"
+    path: "./ruleset/set_lan.list"
+  set_direct:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.list"
+    path: "./ruleset/set_direct.list"
+  set_custom_direct:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Direct.list"
+    path: "./ruleset/set_custom_direct.list"
+  set_custom_proxy:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Proxy.list"
+    path: "./ruleset/set_custom_proxy.list"
+  set_chinamedia:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
+    path: "./ruleset/set_chinamedia.list"
+  set_proxymedia:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+    path: "./ruleset/set_proxymedia.list"
+  set_proxygfwlist:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+    path: "./ruleset/set_proxygfwlist.list"
+  # set_chinaip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 86400
+  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
+  #   path: "./ruleset/set_chinaip.list"
+  set_chinadomain:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+    path: "./ruleset/set_chinadomain.list"
+  set_chinacompanyip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
+    path: "./ruleset/set_chinacompanyip.list"
+  set_download:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
+    path: "./ruleset/set_download.list"
+  set_download_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.list"
+    path: "./ruleset/set_download_2.list"
+  set_chinamedia_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.list"
+    path: "./ruleset/set_chinamedia_2.list"
+  set_globalmedia:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list"
+    path: "./ruleset/set_globalmedia.list"
+  set_localareanetwork:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+    path: "./ruleset/set_localareanetwork.list"
+
+proxy-groups:
+  - name: "🚀 节点选择"
+    type: "select"
+    proxies:
+      - "DIRECT"
+      - "🎲 智能负载"
+      - "🏳️ FINAL"
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🛫 一分"
+      - "🛫 69云"
+      - "🛫 共享"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🔯 故障转移"
+      - "🚀 手动切换"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+    filter: "(jiarui)"
+  - name: "🚀 手动切换"
+    type: "select"
+    include-all: true
+    filter: ".*"
+  # - name: "🔮 负载均衡"
+  #   type: "load-balance"
+  #   proxies:
+  #     - "🛫 极速"
+  #     - "🛫 三分"
+  #     - "🛫 XSUS"
+  #     - "🛫 一分"
+  #     - "☁️ CFWorker"
+  #   filter: ".*"
+  #   url: "http://cp.cloudflare.com/generate_204"
+  #   interval: 300
+  #   tolerance: 50
+  - name: "🎲 智能负载"
+    type: "smart"
+    proxies:
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🛫 一分"
+      - "🛫 69云"
+    include-all: true
+    filter: "^(?!.*(jiarui)).*"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+    uselightgbm: true
+    collectdata: false
+    strategy: "sticky-sessions"
+    policy-priority: "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|UnitedStates):1.1;(港|HK|hk|Hong Kong|HongKong|hongkong|深港):0.9"
+  # - name: "🔮 负载均衡"
+  #   type: "load-balance"
+  #   proxies:
+  #     - "🛫 极速"
+  #   filter: ".*"
+  #   url: "http://cp.cloudflare.com/generate_204"
+  #   interval: 300
+  #   tolerance: 50
+  - name: "♻️ 自动选择"
+    include-all: true
+    type: "url-test"
+    filter: "^(?!.*(jiarui)).*"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "🔯 故障转移"
+    include-all: true
+    type: "fallback"
+    filter: "^(?!.*(jiarui)).*"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "🎯 全球直连"
+    type: "select"
+    proxies:
+      - "DIRECT"
+      - "🚀 节点选择"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+    filter: "(jiarui)"
+  - name: "🧮 JIARUI"
+    type: "select"
+    proxies:
+      - "🎯 全球直连"
+      - "🎲 智能负载"
+      - "☁️ CFWorker"
+      - "🚀 手动切换"
+    include-all: true
+    filter: "(jiarui)"
+  - name: "👻 OpenAi"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "🏳️ FINAL"
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🛫 一分"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  - name: "♊ Gemini"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "🏳️ FINAL"
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🛫 一分"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  - name: "🤖 Copilot"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "🏳️ FINAL"
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🛫 一分"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  - name: "📢 Google"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "🏳️ FINAL"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  - name: "📢 GooglePlay"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "🏳️ FINAL"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  - name: "🎰 SpeedTest"
+    type: "select"
+    proxies:
+      - "🎯 全球直连"
+      - "🎲 智能负载"
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🛫 一分"
+      - "🛫 共享"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🔯 故障转移"
+      - "🚀 手动切换"
+  - name: "🚀 GitHub"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🛫 一分"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  - name: "甲骨文"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "🏳️ FINAL"
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🛫 一分"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  # - name: "🍘️ 小米服务"
+  #   type: "select"
+  #   proxies:
+  #     - "🎯 全球直连"
+  #     - "🚀 节点选择"
+  #     - "☁️ CFWorker"
+  #     - "♻️ 自动选择"
+  #     - "🚀 手动切换"
+  #     - "🇺🇸 美国节点"
+  #     - "🇰🇷 韩国节点"
+  #     - "🇯🇵 日本节点"
+  #     - "🇸🇬 新加坡节点"
+  #     - "🇭🇰 香港节点"
+  #     - "🇹🇼 台湾节点"
+  #     - "🇨🇳 犄角旮旯"
+  # - name: "Ⓜ️ 微软Bing"
+  #   type: "select"
+  #   proxies:
+  #     - "🎯 全球直连"
+  #     - "🚀 节点选择"
+  #     - "☁️ CFWorker"
+  #     - "♻️ 自动选择"
+  #     - "🚀 手动切换"
+  #     - "🇺🇸 美国节点"
+  #     - "🇰🇷 韩国节点"
+  #     - "🇯🇵 日本节点"
+  #     - "🇸🇬 新加坡节点"
+  #     - "🇭🇰 香港节点"
+  #     - "🇹🇼 台湾节点"
+  #     - "🇨🇳 犄角旮旯"
+  - name: "Ⓜ️ Onedrive"
+    type: "select"
+    proxies:
+      - "🎯 全球直连"
+      - "🚀 节点选择"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  - name: "Ⓜ️ Microsoft"
+    type: "select"
+    proxies:
+      - "🎯 全球直连"
+      - "🚀 节点选择"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  # - name: "🍎 苹果服务"
+  #   type: "select"
+  #   proxies:
+  #     - "🎯 全球直连"
+  #     - "🚀 节点选择"
+  #     - "☁️ CFWorker"
+  #     - "♻️ 自动选择"
+  #     - "🚀 手动切换"
+  #     - "🇺🇸 美国节点"
+  #     - "🇰🇷 韩国节点"
+  #     - "🇯🇵 日本节点"
+  #     - "🇸🇬 新加坡节点"
+  #     - "🇭🇰 香港节点"
+  #     - "🇹🇼 台湾节点"
+  #     - "🇨🇳 犄角旮旯"
+  - name: "📲 Telegram"
+    type: "select"
+    proxies:
+      - "🎯 全球直连"
+      - "🚀 节点选择"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  - name: "🎮 游戏平台"
+    type: "select"
+    proxies:
+      - "🎯 全球直连"
+      - "🚀 节点选择"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  # - name: "🎶 网易音乐"
+  #   type: "select"
+  #   proxies:
+  #     - "DIRECT"
+  #     - "🚀 节点选择"
+  #     - "♻️ 自动选择"
+  #   filter: "(网易|音乐|解锁|Music|NetEase)"
+  - name: "📺 哔哩哔哩"
+    type: "select"
+    proxies:
+      - "🎯 全球直连"
+      - "🚀 节点选择"
+  - name: "🎶 TikTok"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "🛫 共享"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  # - name: "🎥 Disney+"
+  #   type: "select"
+  #   proxies:
+  #     - "🚀 节点选择"
+  #     - "♻️ 自动选择"
+  #     - "🚀 手动切换"
+  #     - "🎯 全球直连"
+  #     - "🇺🇸 美国节点"
+  #     - "🇰🇷 韩国节点"
+  #     - "🇯🇵 日本节点"
+  #     - "🇸🇬 新加坡节点"
+  #     - "🇭🇰 香港节点"
+  #     - "🇹🇼 台湾节点"
+  # - name: "🎻 Spotify"
+  #   type: "select"
+  #   proxies:
+  #     - "🚀 节点选择"
+  #     - "♻️ 自动选择"
+  #     - "🚀 手动切换"
+  #     - "🎯 全球直连"
+  #     - "🇺🇸 美国节点"
+  #     - "🇰🇷 韩国节点"
+  #     - "🇯🇵 日本节点"
+  #     - "🇸🇬 新加坡节点"
+  #     - "🇭🇰 香港节点"
+  #     - "🇹🇼 台湾节点"
+  - name: "📹 Youtube"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "🛫 共享"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  # - name: "🎥 奈飞视频"
+  #   type: "select"
+  #   proxies:
+  #     - "🎥 奈飞节点"
+  #     - "🚀 节点选择"
+  #     - "♻️ 自动选择"
+  #     - "🚀 手动切换"
+  #     - "🎯 全球直连"
+  #     - "🇺🇸 美国节点"
+  #     - "🇰🇷 韩国节点"
+  #     - "🇯🇵 日本节点"
+  #     - "🇸🇬 新加坡节点"
+  #     - "🇭🇰 香港节点"
+  #     - "🇹🇼 台湾节点"
+  - name: "🌍 国外媒体"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "🛫 共享"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
+      - "🛫 极速"
+      - "🛫 星链"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  - name: "🌏 国内媒体"
+    type: "select"
+    proxies:
+      - "🎯 全球直连"
+      - "🚀 节点选择"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🇺🇸 美国节点"
+      - "🇰🇷 韩国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇭🇰 香港节点"
+      - "🇹🇼 台湾节点"
+      - "🇨🇳 犄角旮旯"
+  - name: "☁️ CFWorker"
+    include-all: true
+    type: "smart"
+    filter: "(edgetunnel)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+    uselightgbm: true
+    collectdata: false
+    strategy: "sticky-sessions"
+    policy-priority: ""
+  # - name: "🐅 胖虎"
+  #   type: "url-test"
+  #   filter: "(胖虎)"
+  #   url: "http://cp.cloudflare.com/generate_204"
+  #   interval: 300
+  #   tolerance: 50
+  - name: "🛫 极速"
+    include-all: true
+    type: "url-test"
+    filter: "(极速机场)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "🛫 星链"
+    include-all: true
+    type: "url-test"
+    filter: "(星链机场)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "🛫 一分"
+    include-all: true
+    type: "url-test"
+    filter: "(一分)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "🛫 69云"
+    include-all: true
+    type: "url-test"
+    filter: "(69云)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "🛫 宝可梦"
+    include-all: true
+    type: "url-test"
+    filter: "(宝可梦)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "🛫 共享"
+    include-all: true
+    type: "smart"
+    filter: "(共享)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+  # - name: "🎥 奈飞节点"
+  #   type: "select"
+  #   filter: "(NF|奈飞|解锁|Netflix|NETFLIX|Media)"
+  - name: "🇺🇸 美国节点"
+    include-all: true
+    type: "smart"
+    filter: "((?i)US|🇺🇸|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|UnitedStates)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+    uselightgbm: true
+    collectdata: false
+    strategy: "sticky-sessions"
+    policy-priority: ""
+  - name: "🇰🇷 韩国节点"
+    include-all: true
+    type: "smart"
+    filter: "((?i)KR|🇰🇷|韩|Korea|首尔|春川)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+    uselightgbm: true
+    collectdata: false
+    strategy: "sticky-sessions"
+    policy-priority: ""
+  - name: "🇯🇵 日本节点"
+    include-all: true
+    type: "smart"
+    filter: "((?i)JP|🇯🇵|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|(?<!尼|-)日|Japan)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+    uselightgbm: true
+    collectdata: false
+    strategy: "sticky-sessions"
+    policy-priority: ""
+  - name: "🇸🇬 新加坡节点"
+    include-all: true
+    type: "smart"
+    filter: "((?i)SG|🇸🇬|新加坡|坡|狮城|Singapore)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+    uselightgbm: true
+    collectdata: false
+    strategy: "sticky-sessions"
+    policy-priority: ""
+  - name: "🇭🇰 香港节点"
+    include-all: true
+    type: "smart"
+    filter: "((?i)HK|🇭🇰|港|Hong Kong|HongKong|hongkong|深港)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+    uselightgbm: true
+    collectdata: false
+    strategy: "sticky-sessions"
+    policy-priority: ""
+  - name: "🇹🇼 台湾节点"
+    include-all: true
+    type: "smart"
+    filter: "((?i)TW|🇹🇼|台|新北|彰化|Taiwan)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+    uselightgbm: true
+    collectdata: false
+    strategy: "sticky-sessions"
+    policy-priority: ""
+  - name: "🇨🇳 犄角旮旯"
+    include-all: true
+    type: "smart"
+    filter: "^(?!(?i).*?(jiarui|US|🇺🇸|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|UnitedStates|KR|🇰🇷|韩|Korea|首尔|春川|JP|🇯🇵|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|(?<!尼|-)日|Japan|SG|🇸🇬|新加坡|坡|狮城|Singapore|HK|🇭🇰|港|Hong Kong|HongKong|hongkong|深港|TW|🇹🇼|台|新北|彰化|Taiwan)).*"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+    uselightgbm: true
+    collectdata: false
+    strategy: "sticky-sessions"
+    policy-priority: ""
+  - name: "🐟 漏网之鱼"
+    type: "select"
+    proxies:
+      - "🎯 全球直连"
+      - "🚀 节点选择"
+      - "🚀 手动切换"
+      - "🎲 智能负载"
+      - "☁️ CFWorker"
+      - "♻️ 自动选择"
+      - "🔯 故障转移"
+    filter: "(jiarui)"
+
+  # - name: "🆎 AdBlock"
+  #   type: "select"
+  #   proxies:
+  #     - "REJECT"
+  #     - "🚀 节点选择"
+  #     - "🎯 全球直连"
+  # - name: "🛡️ 隐私防护"
+  #   type: "select"
+  #   proxies:
+  #     - "REJECT"
+  #     - "🚀 节点选择"
+  #     - "🎯 全球直连"
+  # (?!(?i).*?(jiarui|一分|69云))((?i)vless|vmess|trojan)
+  # (?i)^(?!.*(?:jiarui|一分|69云)).*(?:vless|vmess|trojan).*
+  - name: "⛓️‍💥 dialer-selector"
+    type: "smart"
+    proxies:
+      - "🚀 手动切换"
+    include-all: true
+    filter: "(?!(?i).*?(jiarui))((?i)vless|vmess|trojan|tuic|ss)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+    uselightgbm: true
+    collectdata: false
+    strategy: "sticky-sessions"
+    policy-priority: ""
+  # - name: "⛓️‍💥 dialer-selector"
+  #   type: "smart"
+  #   proxies:
+  #     - "🚀 手动切换"
+  #   filter: "(?!(?i).*?(jiarui|一分|69云))((?i)vless|vmess|trojan)"
+  #   url: "http://cp.cloudflare.com/generate_204"
+  #   interval: 300
+  #   tolerance: 50
+  #   uselightgbm: true
+  #   collectdata: false
+  #   strategy: "sticky-sessions"
+  #   policy-priority: ""
+  # - name: "⛓️‍💥 dialer-selector3"
+  #   type: "smart"
+  #   proxies:
+  #     - "🚀 手动切换"
+  #   filter: "(?i)^(?!.*(?:jiarui|一分|69云)).*(?:vless|vmess|trojan).*"
+  #   url: "http://cp.cloudflare.com/generate_204"
+  #   interval: 300
+  #   tolerance: 50
+  #   uselightgbm: true
+  #   collectdata: false
+  #   strategy: "sticky-sessions"
+  #   policy-priority: ""
+
+  - name: "🏳️ FINAL"
+    type: "select"
+    proxies:
+      - "🚀 手动切换"
+    filter: "(webshare)"
+  # 设置分组标志位
+
+  # enable_rule_generator=true
+  # overwrite_original_rules=true
+
+  # clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
+
+  # luck
+
+rules:
+  # 不要随意改变关键字，否则会导致出错
+  # acl4SSR规则
+
+  # 去广告：支持
+  # 自动测速：支持
+  # 微软分流：支持
+  # 苹果分流：支持
+  # 增强中国IP段：支持
+  # 增强国外GFW：支持
+
+  # 设置规则标志位
+  - "DOMAIN,qyapi.weixin.qq.com,🎯 全球直连"
+
+  #  星链机场，直连不能订阅
+  - "DOMAIN-SUFFIX,rssstarlink.ei38d3if3.xyz,🚀 节点选择"
+  # 甲骨文
+  - "DOMAIN-SUFFIX,oracle.com,甲骨文"
+  - "DOMAIN-SUFFIX,oraclecloud.com,甲骨文"
+  - "DOMAIN-SUFFIX,api.vbhub.net,甲骨文"
+
+  # DNS泄露检测
+  - "DOMAIN-SUFFIX,ipleak.net,🚀 节点选择"
+  - "DOMAIN-SUFFIX,browserscan.net,🚀 节点选择"
+  - "DOMAIN-SUFFIX,ipcheck.ing,🚀 节点选择"
+  - "DOMAIN-SUFFIX,browserleaks.com,🚀 节点选择"
+
+  # - "DOMAIN-KEYWORD,jiarui,🧮 JIARUI"
+  # Dataworks
+  - "DOMAIN,am-8vbpj287t80nr19an85480o.zhangbei.ads.aliyuncs.com,🧮 JIARUI"
+  # ABI
+  - "DOMAIN,rm-8vbbbxr1kn2916v3p9o.mysql.zhangbei.rds.aliyuncs.com,🧮 JIARUI"
+  # 内网全网段
+  - "IP-CIDR,172.20.0.0/16,🧮 JIARUI"
+  - "IP-CIDR,192.168.20.0/23,🧮 JIARUI"
+  # - "DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连"
+
+  # 修复 Google Play Store 避免GooglePlay商店等待中
+  # - "DOMAIN-SUFFIX,services.googleapis.com,📢 谷歌🇨🇳Play服务"
+  - "DOMAIN-SUFFIX,services.googleapis.cn,📢 GooglePlay"
+  - "DOMAIN-SUFFIX,play.googleapis.com,📢 GooglePlay"
+  - "DOMAIN,connectivitycheck.gstatic.com,📢 GooglePlay"
+  - "DOMAIN-SUFFIX,android.clients.google.com,📢 GooglePlay"
+  - "DOMAIN-SUFFIX,xn--ngstr-lra8j.com,📢 GooglePlay"
+  # 谷歌 v6DNS
+  # - "IP-CIDR,2001:4860:4860::8888/32,📢 谷歌"
+  # Cloudflare v6DNS
+  # - "IP-CIDR,2606:4700:4700::1111/32,🚀 节点选择"
+
+  # 🤖 Copilot规则补充
+  - "DOMAIN-SUFFIX,trae.ai,🤖 Copilot"
+  - "RULE-SET,speedtest_speedtest,🎰 SpeedTest"
+  - "RULE-SET,speedtest_speedtest_2,🎰 SpeedTest"
+  - "RULE-SET,openai_openai,👻 OpenAi"
+  - "RULE-SET,openai_openai_2,👻 OpenAi"
+  - "DOMAIN-SUFFIX,aistudio.google.com,♊ Gemini"
+  - "RULE-SET,gemini_gemini,♊ Gemini"
+
+  - "RULE-SET,copilot_claude,🤖 Copilot"
+  - "RULE-SET,copilot_ai,🤖 Copilot"
+  - "RULE-SET,set_unban,🎯 全球直连"
+  - "RULE-SET,set_steamcn,🎯 全球直连"
+  # - "RULE-SET,set_baneasyprivacy,🛡️ 隐私防护"
+  # - "RULE-SET,set_privatetracker,🛡️ 隐私防护"
+  # - "RULE-SET,adblock_banad,🆎 AdBlock"
+  # - "RULE-SET,adblock_baneasylist,🆎 AdBlock"
+  # - "RULE-SET,adblock_baneasylistchina,🆎 AdBlock"
+  # - "RULE-SET,adblock_banprogramad,🆎 AdBlock"
+  - "RULE-SET,youtube_youtube,📹 Youtube"
+  - "RULE-SET,youtube_youtube_2,📹 Youtube"
+
+  - "RULE-SET,googleplay_googlecnproxyip,📢 GooglePlay"
+  - "RULE-SET,google_googlefcm,📢 Google"
+  - "RULE-SET,google_googlefcm_2,📢 Google"
+  - "RULE-SET,google_googlecn,📢 Google"
+  - "RULE-SET,google_googlecn_2,📢 Google"
+  - "RULE-SET,google_google,📢 Google"
+  - "RULE-SET,onedrive_onedrive,Ⓜ️ Onedrive"
+  - "RULE-SET,microsoft_bing,Ⓜ️ Microsoft"
+  - "RULE-SET,microsoft_microsoft,Ⓜ️ Microsoft"
+  # - "RULE-SET,set_apple,🍎 苹果服务"
+  - "RULE-SET,telegram_telegram,📲 Telegram"
+  - "RULE-SET,telegram_telegram,📲 Telegram"
+  # - "RULE-SET,set_neteasemusic,🎶 网易音乐"
+  - "RULE-SET,set_epic,🎮 游戏平台"
+  - "RULE-SET,set_origin,🎮 游戏平台"
+  - "RULE-SET,set_sony,🎮 游戏平台"
+  - "RULE-SET,set_steam,🎮 游戏平台"
+  - "RULE-SET,set_nintendo,🎮 游戏平台"
+  # - "RULE-SET,set_netflix,🎥 奈飞视频"
+  - "RULE-SET,set_bilibilihmt,📺 哔哩哔哩"
+  - "RULE-SET,set_bilibili,📺 哔哩哔哩"
+  - "RULE-SET,set_steamcn_2,🎮 游戏平台"
+  - "RULE-SET,set_steam_cdn,🎯 全球直连"
+  - "RULE-SET,telegram_telegram_2,📲 Telegram"
+
+  - "RULE-SET,github_github,🚀 GitHub"
+  # - "RULE-SET,set_apple_2,🍎 苹果服务"
+  - "RULE-SET,microsoft_microsoft_2,Ⓜ️ Microsoft"
+  # - "RULE-SET,set_xiaomi,🍘️ 小米服务"
+  - "RULE-SET,tiktok_tiktok,🎶 TikTok"
+  # - "RULE-SET,set_netflix_2,🎥 奈飞视频"
+  # - "RULE-SET,disney_disney,🎥 Disney+"
+  # - "RULE-SET,spotify_spotify,🎻 Spotify"
+  # - "RULE-SET,set_neteasemusic_2,🎶 网易音乐"
+  - "RULE-SET,set_epic_2,🎮 游戏平台"
+  - "RULE-SET,set_ea,🎮 游戏平台"
+  - "RULE-SET,set_blizzard,🎮 游戏平台"
+  - "RULE-SET,set_ubi,🎮 游戏平台"
+  - "RULE-SET,set_sony_2,🎮 游戏平台"
+  - "RULE-SET,set_nintendo_2,🎮 游戏平台"
+  - "RULE-SET,set_steam_2,🎮 游戏平台"
+  # - "RULE-SET,set_chinamax,🎯 全球直连"
+  - "RULE-SET,set_lan,🎯 全球直连"
+  - "RULE-SET,set_direct,🎯 全球直连"
+  - "RULE-SET,set_custom_direct,🎯 全球直连"
+  - "RULE-SET,set_custom_proxy,🚀 节点选择"
+  - "RULE-SET,set_chinamedia,🌏 国内媒体"
+  - "RULE-SET,set_proxymedia,🌍 国外媒体"
+  - "RULE-SET,set_proxygfwlist,🚀 节点选择"
+  # - "RULE-SET,set_chinaip,🎯 全球直连"
+  - "RULE-SET,set_chinadomain,🎯 全球直连"
+  - "RULE-SET,set_chinacompanyip,🎯 全球直连"
+  - "RULE-SET,set_download,🎯 全球直连"
+  - "RULE-SET,set_download_2,🎯 全球直连"
+  - "RULE-SET,set_chinamedia_2,🌏 国内媒体"
+  - "RULE-SET,set_globalmedia,🌍 国外媒体"
+  - "RULE-SET,set_localareanetwork,🎯 全球直连"
+  # - "GEOIP,LAN,🎯 全球直连"
+  - "GEOIP,CN,🎯 全球直连"
+  - "MATCH,🐟 漏网之鱼"
+  # 设置规则标志位
+
+  # 设置分组标志位
