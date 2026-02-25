@@ -963,7 +963,7 @@ proxy-groups:
   - name: "☁️ CFWorker"
     include-all: true
     type: "smart"
-    filter: "(edgetunnel)"
+    filter: "(edgetunnel|cfep)"
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     tolerance: 50
