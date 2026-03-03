@@ -1233,7 +1233,7 @@ rules:
   - "RULE-SET,openai_openai,👻 OpenAi"
   - "RULE-SET,openai_openai_2,👻 OpenAi"
   - "DOMAIN-SUFFIX,aistudio.google.com,♊ Gemini"
-  - "DOMAIN_SUFFIX,goo.gle,♊ Gemini"
+  - "DOMAIN-SUFFIX,goo.gle,♊ Gemini"
   - "DOMAIN-SUFFIX,ping0.cc,♊ Gemini"
   - "RULE-SET,gemini_gemini,♊ Gemini"
 
