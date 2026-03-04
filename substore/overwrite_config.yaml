@@ -1130,14 +1130,14 @@ proxy-groups:
     proxies:
       - "🚀 手动切换"
     include-all: true
-    filter: "(?!(?i).*?(jiarui))((?i)vless|vmess|trojan|tuic|ss)"
+    filter: "(?!(?i).*?(jiarui))((?i)vless|vmess|trojan|ss)"
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     tolerance: 50
     uselightgbm: true
     collectdata: false
     strategy: "sticky-sessions"
-    policy-priority: ""
+    policy-priority: "(港|HK|hk|Hong Kong|HongKong|hongkong|深港):1.2;((?i)JP|🇯🇵|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|(?<!尼|-)日|Japan):1.1"
   # - name: "⛓️‍💥 dialer-selector"
   #   type: "smart"
   #   proxies:
