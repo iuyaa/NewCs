@@ -1091,7 +1091,7 @@ proxy-groups:
     proxies:
       - "🚀 手动切换"
     include-all: true
-    filter: "(?!(?i).*?(jiarui))((?i)vless|vmess|trojan|tuic|ss)"
+    filter: "(?!(?i).*?(jiarui))((?i)vless|vmess|trojan|ss)"
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     tolerance: 50
