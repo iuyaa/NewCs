@@ -183,13 +183,13 @@ rule-providers:
     interval: 86400
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
     path: "./ruleset/microsoft_microsoft.list"
-  # set_apple:
-  #   type: http
-  #   behavior: classical
-  #   format: text
-  #   interval: 86400
-  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
-  #   path: "./ruleset/set_apple.list"
+  set_apple:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
+    path: "./ruleset/set_apple.list"
   telegram_telegram:
     type: http
     behavior: classical
@@ -288,13 +288,13 @@ rule-providers:
     interval: 86400
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list"
     path: "./ruleset/github_github.list"
-  # set_apple_2:
-  #   type: http
-  #   behavior: classical
-  #   format: text
-  #   interval: 86400
-  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list"
-  #   path: "./ruleset/set_apple_2.list"
+  set_apple_2:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list"
+    path: "./ruleset/set_apple_2.list"
   microsoft_microsoft_2:
     type: http
     behavior: classical
@@ -1191,6 +1191,8 @@ rules:
   # 设置规则标志位
   - "DOMAIN,qyapi.weixin.qq.com,🎯 全球直连"
 
+  - "RULE-SET,set_apple,🍎 苹果服务"
+  - "RULE-SET,set_apple_2,🍎 苹果服务"
   #  星链机场，直连不能订阅
   - "DOMAIN-SUFFIX,rssstarlink.ei38d3if3.xyz,🚀 节点选择"
   # 甲骨文
@@ -1258,8 +1260,10 @@ rules:
   - "RULE-SET,google_google,📢 Google"
   - "RULE-SET,onedrive_onedrive,Ⓜ️ Onedrive"
   - "RULE-SET,microsoft_bing,Ⓜ️ Microsoft"
-  - "RULE-SET,microsoft_microsoft,Ⓜ️ Microsoft"
+  # - "RULE-SET,microsoft_microsoft,Ⓜ️ Microsoft"
   # - "RULE-SET,set_apple,🍎 苹果服务"
+  # - "RULE-SET,set_apple_2,🍎 苹果服务"
+  
   - "RULE-SET,telegram_telegram,📲 Telegram"
   - "RULE-SET,telegram_telegram,📲 Telegram"
   # - "RULE-SET,set_neteasemusic,🎶 网易音乐"
@@ -1276,7 +1280,6 @@ rules:
   - "RULE-SET,telegram_telegram_2,📲 Telegram"
 
   - "RULE-SET,github_github,🚀 GitHub"
-  # - "RULE-SET,set_apple_2,🍎 苹果服务"
   - "RULE-SET,microsoft_microsoft_2,Ⓜ️ Microsoft"
   # - "RULE-SET,set_xiaomi,🍘️ 小米服务"
   - "RULE-SET,tiktok_tiktok,🎶 TikTok"
