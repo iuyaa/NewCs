@@ -514,6 +514,7 @@ proxy-groups:
       - "🎲 智能负载"
       - "🏳️ FINAL"
       - "🛫 极速"
+      - "🛫 牛逼"
       - "🛫 星链"
       - "🛫 一分"
       - "🛫 69云"
@@ -550,6 +551,7 @@ proxy-groups:
     type: "smart"
     proxies:
       - "🛫 极速"
+      - "🛫 牛逼"
       - "🛫 星链"
       - "🛫 一分"
       - "🛫 69云"
@@ -607,6 +609,7 @@ proxy-groups:
       - "🚀 节点选择"
       - "🏳️ FINAL"
       - "🛫 极速"
+      - "🛫 牛逼"
       - "🛫 星链"
       - "🛫 一分"
       - "☁️ CFWorker"
@@ -626,6 +629,7 @@ proxy-groups:
       - "🚀 节点选择"
       - "🏳️ FINAL"
       - "🛫 极速"
+      - "🛫 牛逼"
       - "🛫 星链"
       - "🛫 一分"
       - "☁️ CFWorker"
@@ -645,6 +649,7 @@ proxy-groups:
       - "🚀 节点选择"
       - "🏳️ FINAL"
       - "🛫 极速"
+      - "🛫 牛逼"
       - "🛫 星链"
       - "🛫 一分"
       - "☁️ CFWorker"
@@ -696,6 +701,7 @@ proxy-groups:
       - "🎯 全球直连"
       - "🎲 智能负载"
       - "🛫 极速"
+      - "🛫 牛逼"
       - "🛫 星链"
       - "🛫 一分"
       - "🛫 共享"
@@ -708,6 +714,7 @@ proxy-groups:
     proxies:
       - "🚀 节点选择"
       - "🛫 极速"
+      - "🛫 牛逼"
       - "🛫 星链"
       - "🛫 一分"
       - "☁️ CFWorker"
@@ -727,6 +734,7 @@ proxy-groups:
       - "🚀 节点选择"
       - "🏳️ FINAL"
       - "🛫 极速"
+      - "🛫 牛逼"
       - "🛫 星链"
       - "🛫 一分"
       - "☁️ CFWorker"
@@ -819,9 +827,9 @@ proxy-groups:
   - name: "📲 Telegram"
     type: "select"
     proxies:
+      - "♻️ 自动选择"
       - "🎯 全球直连"
       - "🚀 节点选择"
-      - "♻️ 自动选择"
       - "🚀 手动切换"
       - "🇺🇸 美国节点"
       - "🇰🇷 韩国节点"
@@ -982,6 +990,13 @@ proxy-groups:
     include-all: true
     type: "url-test"
     filter: "(极速机场)"
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 300
+    tolerance: 50
+  - name: "🛫 牛逼"
+    include-all: true
+    type: "url-test"
+    filter: "(牛逼机场)"
     url: "http://cp.cloudflare.com/generate_204"
     interval: 300
     tolerance: 50
