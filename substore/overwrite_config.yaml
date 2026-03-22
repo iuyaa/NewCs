@@ -1,5 +1,13 @@
 # [custom]
 
+# API CORS 标头配置
+external-controller-cors:
+  allow-origins:
+    - '*'
+    - 'iuya.me'
+  allow-private-network: true
+
+# 规则提供者
 rule-providers:
   speedtest_speedtest:
     type: http
@@ -506,6 +514,8 @@ rule-providers:
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
     path: "./ruleset/set_localareanetwork.list"
 
+
+# 代理组配置
 proxy-groups:
   - name: "🚀 节点选择"
     type: "select"
