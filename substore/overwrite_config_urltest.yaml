@@ -1123,7 +1123,7 @@ proxy-groups:
     type: "select"
     proxies:
       - "🚀 手动切换"
-    filter: "(webshare)"
+    filter: "(webshare|GreenCloud)"
   # 设置分组标志位
   # enable_rule_generator=true
   # overwrite_original_rules=true
