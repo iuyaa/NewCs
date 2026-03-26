@@ -1193,6 +1193,7 @@ proxy-groups:
     type: "select"
     proxies:
       - "🚀 手动切换"
+    include-all: true
     filter: "(webshare|GreenCloud)"
   # 设置分组标志位
 
