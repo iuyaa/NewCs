@@ -1089,7 +1089,7 @@ proxy-groups:
   - name: "⛓️‍💥 dialer-selector"
     type: "url-test"
     proxies:
-      - "🚀 手动切换"
+      - "🎯 全球直连"
     include-all: true
     filter: "(?!(?i).*?(jiarui))((?i)vless|vmess|trojan|ss)"
     url: "http://cp.cloudflare.com/generate_204"
