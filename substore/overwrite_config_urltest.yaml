@@ -587,7 +587,10 @@ proxy-groups:
       - "♻️ 自动选择"
     filter: "(jiarui)"
   - name: "🧮 JIARUI"
-    type: "select"
+    type: "url-test"
+    url: "http://172.20.10.153:8080/generate_204"
+    interval: 300
+    tolerance: 50
     proxies:
       - "🎯 全球直连"
       - "🎲 智能负载"
