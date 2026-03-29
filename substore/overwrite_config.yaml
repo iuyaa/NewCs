@@ -1228,6 +1228,7 @@ rules:
   - "DOMAIN-SUFFIX,oracle.com,甲骨文"
   - "DOMAIN-SUFFIX,oraclecloud.com,甲骨文"
   - "DOMAIN-SUFFIX,api.vbhub.net,甲骨文"
+  - "DOMAIN-SUFFIX,linux.do,🏳️ FINAL"
 
   # DNS泄露检测
   - "DOMAIN-SUFFIX,ipleak.net,🚀 节点选择"
