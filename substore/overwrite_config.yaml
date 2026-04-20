@@ -1218,6 +1218,11 @@ rules:
   # 增强国外GFW：支持
 
   # 设置规则标志位
+  - "DOMAIN-SUFFIX,gc.iuya.me,🎯 全球直连"
+  - "IP-CIDR,96.9.225.53/32,🎯 全球直连"
+
+
+  
   - "DOMAIN,qyapi.weixin.qq.com,🎯 全球直连"
 
   - "RULE-SET,set_apple,🍎 苹果服务"
