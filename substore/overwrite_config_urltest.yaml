@@ -1164,6 +1164,7 @@ rules:
   - "IP-CIDR,192.168.20.0/23,🧮 JIARUI"
   # - "DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连"
   # 修复 Google Play Store 避免GooglePlay商店等待中
+  - "DOMAIN-SUFFIX,play.google.com,📢 GooglePlay"
   # - "DOMAIN-SUFFIX,services.googleapis.com,📢 谷歌🇨🇳Play服务"
   - "DOMAIN-SUFFIX,services.googleapis.cn,📢 GooglePlay"
   - "DOMAIN-SUFFIX,play.googleapis.com,📢 GooglePlay"
