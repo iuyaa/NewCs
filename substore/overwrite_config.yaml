@@ -1246,8 +1246,12 @@ rules:
   # - "DOMAIN-KEYWORD,jiarui,🧮 JIARUI"
   # Dataworks
   - "DOMAIN,am-8vbpj287t80nr19an85480o.zhangbei.ads.aliyuncs.com,🧮 JIARUI"
+  - "IP-CIDR,47.92.28.115/32,🧮 JIARUI"
   # ABI
   - "DOMAIN,rm-8vbbbxr1kn2916v3p9o.mysql.zhangbei.rds.aliyuncs.com,🧮 JIARUI"
+  - "IP-CIDR,8.144.213.247/32,🧮 JIARUI"
+  # CDP
+  - "IP-CIDR,8.142.92.223/32,🧮 JIARUI"
   # 内网全网段
   - "IP-CIDR,172.20.0.0/16,🧮 JIARUI"
   - "IP-CIDR,192.168.20.0/23,🧮 JIARUI"
