@@ -725,6 +725,7 @@ proxy-groups:
     type: "select"
     proxies:
       - "🚀 节点选择"
+      - "🏳️ FINAL"
       - "🛫 极速"
       - "🛫 牛逼"
       - "🛫 星链"
@@ -842,6 +843,7 @@ proxy-groups:
       - "♻️ 自动选择"
       - "🎯 全球直连"
       - "🚀 节点选择"
+      - "🏳️ FINAL"
       - "🚀 手动切换"
       - "🇺🇸 美国节点"
       - "🇰🇷 韩国节点"
@@ -880,6 +882,7 @@ proxy-groups:
     type: "select"
     proxies:
       - "🚀 节点选择"
+      - "🏳️ FINAL"
       - "🛫 共享"
       - "♻️ 自动选择"
       - "🚀 手动切换"
@@ -923,6 +926,7 @@ proxy-groups:
     type: "select"
     proxies:
       - "🚀 节点选择"
+      - "🏳️ FINAL"
       - "🛫 共享"
       - "♻️ 自动选择"
       - "🚀 手动切换"
