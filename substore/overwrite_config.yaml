@@ -604,6 +604,13 @@ proxy-groups:
       - "☁️ CFWorker"
       - "♻️ 自动选择"
     filter: "(jiarui)"
+  - name: "🧭 AxonHub"
+    type: "select"
+    proxies:
+      - "🎲 智能负载"
+      - "♻️ 自动选择"
+      - "🚀 手动切换"
+      - "🎯 全球直连"
   - name: "🧮 JIARUI"
     type: "url-test"
     url: "http://172.20.10.153:8080/generate_204"
@@ -1222,6 +1229,7 @@ rules:
   # 增强国外GFW：支持
 
   # 设置规则标志位
+  - "DOMAIN,axonhub.iuya.me,🧭 AxonHub"
   - "DOMAIN-SUFFIX,gc.iuya.me,🎯 全球直连"
   - "IP-CIDR,96.9.225.53/32,🎯 全球直连"
 
