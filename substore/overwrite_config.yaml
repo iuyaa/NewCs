@@ -1286,6 +1286,7 @@ rules:
   - "DOMAIN-SUFFIX,trae.ai,🤖 Copilot"
   - "RULE-SET,speedtest_speedtest,🎰 SpeedTest"
   - "RULE-SET,speedtest_speedtest_2,🎰 SpeedTest"
+  - "DOMAIN-SUFFIX,chatgpt.site,👻 OpenAi"
   - "RULE-SET,openai_openai,👻 OpenAi"
   - "RULE-SET,openai_openai_2,👻 OpenAi"
   - "DOMAIN-SUFFIX,aistudio.google.com,♊ Gemini"
