@@ -1169,6 +1169,9 @@ rules:
   # ABI
   - "DOMAIN,rm-8vbbbxr1kn2916v3p9o.mysql.zhangbei.rds.aliyuncs.com,🧮 JIARUI"
   - "IP-CIDR,8.144.213.247/32,🧮 JIARUI"
+  # eHR-db
+  - "DOMAIN,rm-8vbc1mbb3x8m2i3bupo.mysql.zhangbei.rds.aliyuncs.com,🧮 JIARUI"
+  - "IP-CIDR,121.89.61.252/32,🧮 JIARUI"
   # CDP
   - "IP-CIDR,8.142.92.223/32,🧮 JIARUI"
   # 内网全网段
